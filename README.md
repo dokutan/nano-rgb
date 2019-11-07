@@ -1,5 +1,5 @@
 # nano-rgb
-2-channel Arduino Nano RGB strip controller
+2-channel Arduino Nano common anode RGB strip controller
 
 # Parts
 
