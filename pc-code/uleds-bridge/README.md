@@ -2,6 +2,18 @@
 This program adds the nano-rgb to the Linux led subsystem.
 It monitors the files in /sys/class/leds/ and wites the changes over serial to the Arduino.
 
+## Installation
+
+- Install:
+``
+sudo make install
+``
+- Uninstall:
+``
+sudo make uninstall
+``
+
+
 ## Usage
 - The uleds kernel module is required. Load it with
 ``
