@@ -43,10 +43,15 @@ void loop() {
   delay(1);
   if( Serial.available() >= 4 ){
     Serial.readBytes( buffer, 4 );
-    //if( buffer[0] == '1' ){
+    if( buffer[0] == '1' ){
       analogWrite(ch1_r, buffer[1]);
       analogWrite(ch1_g, buffer[2]);
       analogWrite(ch1_b, buffer[3]);
-    //}
+    }
+    if( buffer[0] == '2' ){
+      analogWrite(ch2_r, buffer[1]);
+      analogWrite(ch2_g, buffer[2]);
+      analogWrite(ch2_b, buffer[3]);
+    }
   }
 }
