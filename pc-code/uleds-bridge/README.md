@@ -15,6 +15,7 @@ sudo make uninstall
 
 
 ## Usage
+- The Arduino needs to be programmed with arduino-code/serial-in
 - The uleds kernel module is required. Load it with
 ``
 sudo modprobe uleds
@@ -35,4 +36,4 @@ sudo uleds-bridge -a <arduino>
   - [x] Arduino
   - [ ] Optionally daemonize ?
 - [ ] Add support for more than one physical device
-- [ ] Write makefile
+- [x] Write makefile
