@@ -14,9 +14,9 @@ sudo make uninstall
 
 ## Usage
 - The Arduino needs to be programmed with arduino-code/serial-in
-- Run the program (replace <arduino> with the correct path, for example /dev/ttyUSB0). Example:
+- Run the program (replace arduino with the correct path, for example /dev/ttyUSB0). Example:
 ``
-sudo nano-rgb-color -1 ffff00
+sudo nano-rgb-color -a arduino -1 ffff00
 ``
 
 ## TODO
