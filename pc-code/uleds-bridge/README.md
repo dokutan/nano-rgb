@@ -24,9 +24,9 @@ sudo modprobe uleds
 ``
 lsmod | grep uleds
 ``
-- Run the program (replace <arduino> with the correct path, for example /dev/ttyUSB0)
+- Run the program (replace arduino with the correct path, for example /dev/ttyUSB0)
 ``
-sudo uleds-bridge -a <arduino>
+sudo uleds-bridge -a arduino
 ``
 - The leds should show up in /sys/class/leds
 
