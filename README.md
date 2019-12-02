@@ -19,3 +19,4 @@
 
 ### PC
 - pc-code/uleds-bridge: this program adds support for the nano-rgb to the linux led subsystem. See pc-code/uleds-bridge/README.md for details.
+- pc-code/nano-rgb-color: Set the color directly over serial. See pc-code/nano-rgb-color/README.md for details.
